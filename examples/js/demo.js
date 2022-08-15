@@ -1,6 +1,6 @@
 var conditions, actions, nameField, ageField, occupationField, submit, allData;
 (function($) {
-  var occupationOptions = [ "Software Engineer", "Biz Dev", "Marketing" ];
+  var occupationOptions = [ "Software Eng", "Biz Dev", "Marketing" ];
 
   function getInitialData() {
     return {'variables': [{'name': 'Created_Date',
